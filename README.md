@@ -20,6 +20,14 @@
 - Move between Feature and Unit Tests
 - Write an RSpec test using it
 - Test that an Object responds to a Message
+- Debug an error using a stack trace
+- Create a spec file
+- Describe an Object using a spec
+- Set up a unit test
+- Move between unit and feature tests
+- Pass a unit test
+- Use require
+- Test that an Object responds to a message
 
 
 
