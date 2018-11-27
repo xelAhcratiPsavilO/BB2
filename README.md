@@ -15,6 +15,8 @@
 - Create a spec file
 - Describe an Object using a specification
 - Set up a Unit Test
+- Pass a unit test
+- Use require
 
 
 ### User stories
