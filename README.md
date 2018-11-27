@@ -18,6 +18,8 @@
 - Pass a unit test
 - Use require
 - Move between Feature and Unit Tests
+- Write an RSpec test using it
+- Test that an Object responds to a Message
 
 
 
