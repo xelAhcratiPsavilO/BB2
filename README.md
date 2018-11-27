@@ -11,6 +11,10 @@
 - Use irb to run a 'feature test'
 - Explain how to use a stack trace to debug errors
 - Debug an error using a stack trace
+- Define RSpec as a testing framework
+- Create a spec file
+- Describe an Object using a specification
+- Set up a Unit Test
 
 
 ### User stories
