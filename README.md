@@ -15,10 +15,17 @@ As a person,
 So that I can use a good bike,
 I'd like to see if a bike is working
 ```
-### Functional representation of the stories:
+### Functional representation of the stories
 
 Objects  | Messages
 ------------- | -------------
 Person  |
 Bike  | working?
 DockingStation  | release_bike
+
+### Diagram of objects and methods
+```
+CLASS              METHOD           OUTPUT  
+Bike           --> working?     --> true/false
+DockingStation --> release_bike --> Bike.new 
+```
