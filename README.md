@@ -6,6 +6,10 @@
 - Initialize and push a git project
 - Give the structure of a User Story
 - Extract a Domain Model from User Stories
+- Define 'Feature Test'
+- Define a 'stack trace'
+- Use irb to run a 'feature test'
+
 
 ### User stories
 ```
