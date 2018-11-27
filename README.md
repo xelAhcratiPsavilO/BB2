@@ -4,6 +4,8 @@
 - Set up a simple project
 - Explain why a complete README is important
 - Initialize and push a git project
+- Give the structure of a User Story
+- Extract a Domain Model from User Stories
 
 ### User stories
 ```
