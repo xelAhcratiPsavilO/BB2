@@ -9,6 +9,8 @@
 - Define 'Feature Test'
 - Define a 'stack trace'
 - Use irb to run a 'feature test'
+- Explain how to use a stack trace to debug errors
+- Debug an error using a stack trace
 
 
 ### User stories
