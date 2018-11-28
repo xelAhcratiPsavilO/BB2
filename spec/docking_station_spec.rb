@@ -1,8 +1,6 @@
 require 'docking_station'
-require 'bike'
-describe DockingStation do
 
-  bike = Bike.new
+describe DockingStation do
 
   it { is_expected.to respond_to :release_bike }
 
