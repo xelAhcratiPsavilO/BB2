@@ -70,6 +70,7 @@ DockingStation  | bike
 CLASS              METHOD           OUTPUT  
 Bike           --> working?     --> true/false
 DockingStation --> release_bike --> Bike.new
-DockingStation --> dock(bike) --> Bike.new
+DockingStation --> dock(bike)   --> Bike.new
+DockingStation --> bike         --> Bike.new
 ```
 (Domain Model in form of UML Diagram to be added)
