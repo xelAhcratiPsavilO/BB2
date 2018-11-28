@@ -31,6 +31,10 @@
 - Use Objects within other Objects
 - Use RSpec 'predicate' syntax
 - Pass a feature test
+- Write RSpec tests that require arguments
+- Pass an instance as an argument
+- Set an attribute on an instantiated Object using an @ instance variable
+- Use attr_reader to read an attribute on an instantiated Object
 
 
 
