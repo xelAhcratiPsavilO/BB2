@@ -62,6 +62,7 @@ Objects  | Messages
 Person  |
 Bike  | working?
 DockingStation  | release_bike
+DockingStation  | dock(Bike)
 
 ### Diagram of objects and methods
 ```
