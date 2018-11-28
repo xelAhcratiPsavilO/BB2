@@ -28,6 +28,9 @@
 - Pass a unit test
 - Use require
 - Test that an Object responds to a message
+- Use Objects within other Objects
+- Use RSpec 'predicate' syntax
+- Pass a feature test
 
 
 
