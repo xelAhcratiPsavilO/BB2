@@ -35,8 +35,9 @@
 - Pass an instance as an argument
 - Set an attribute on an instantiated Object using an @ instance variable
 - Use attr_reader to read an attribute on an instantiated Object
-
-
+- Write RSpec tests that expect errors
+- Use fail or raise to raise an error
+- Use a 'guard condition'
 
 ### User stories
 ```
@@ -63,6 +64,11 @@ I want to see a bike that has been docked
 As a member of the public,
 So that I am not confused and charged unnecessarily,
 I'd like docking stations not to release bikes when there are none available.
+```
+```
+As a maintainer of the system,
+So that I can control the distribution of bikes,
+I'd like docking stations not to accept more bikes than their capacity.
 ```
 ### Functional representation of the stories
 
