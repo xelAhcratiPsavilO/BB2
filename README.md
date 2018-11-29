@@ -38,6 +38,9 @@
 - Write RSpec tests that expect errors
 - Use fail or raise to raise an error
 - Use a 'guard condition'
+- Write RSpec tests that expect errors
+- Use fail or raise to raise an error
+- Use a 'guard condition'
 
 ### User stories
 ```
