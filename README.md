@@ -31,6 +31,8 @@
 - Use a 'guard condition'
 - Wrap a collection in a class
 - Set an initial attribute value using initialize
+- Use the Single Responsibility Principle
+- Refactor code for readability
 
 ### User stories
 ```
