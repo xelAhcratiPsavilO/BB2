@@ -29,6 +29,8 @@
 - Write RSpec tests that expect errors
 - Use fail or raise to raise an error
 - Use a 'guard condition'
+- Wrap a collection in a class
+- Set an initial attribute value using initialize
 
 ### User stories
 ```
