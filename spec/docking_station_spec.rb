@@ -6,10 +6,9 @@ describe DockingStation do
   bike = Bike.new
 
   describe '#initialize' do
-    it 'has a variable capacity' do
-      station = DockingStation.new(25)
-      25.times { station.dock(bike) }
-      expect{ station.dock(bike) }.to raise_error 'Docking Station full'
+    it 'defaults capacity' do
+      DockingStation::DEFAULT_CAPACITY.times { subject.dock(bike) }
+      expect{ subject.dock(bike) }.to raise_error 'Docking Station full'
     end
   end
 
