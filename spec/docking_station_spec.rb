@@ -5,6 +5,14 @@ describe DockingStation do
 
   bike = Bike.new
 
+  describe '#initialize' do
+    it 'has a variable capacity' do
+      station = DockingStation.new(25)
+      25.times { station.dock(bike) }
+      expect{ station.dock(bike) }.to raise_error 'Docking Station full'
+    end
+  end
+
   describe '#release' do
     it 'raises an error if docking station is empty' do
       expect{ subject.release_bike }.to raise_error 'No bikes available'
