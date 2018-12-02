@@ -94,5 +94,6 @@ Bike           --> working?     --> true/false
 DockingStation --> release_bike --> Bike.new
 DockingStation --> dock(bike)   --> Bike.new
 DockingStation --> bike         --> Bike.new
+DockingStation --> capacity     --> DEFAULT_CAPACITY
 ```
 (Domain Model in form of UML Diagram to be added)
