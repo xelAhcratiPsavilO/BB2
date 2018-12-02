@@ -85,6 +85,7 @@ Bike  | working?
 DockingStation  | release_bike
 DockingStation  | dock(Bike)
 DockingStation  | bike
+DockingStation  | capacity
 
 ### Diagram of objects and methods
 ```
