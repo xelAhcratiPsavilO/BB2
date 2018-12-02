@@ -33,6 +33,7 @@
 - Set an initial attribute value using initialize
 - Use the Single Responsibility Principle
 - Refactor code for readability
+- Use a constant
 
 ### User stories
 ```
