@@ -34,6 +34,8 @@
 - Use the Single Responsibility Principle
 - Refactor code for readability
 - Use a constant
+- Set an initial attribute value using initialize
+- Set a default initialization value
 
 ### User stories
 ```
