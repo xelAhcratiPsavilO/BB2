@@ -88,11 +88,12 @@ I'd like to report a bike as broken when I return it.
 Objects  | Messages
 ------------- | -------------
 Person  |
-Bike  | working?
 DockingStation  | release_bike
 DockingStation  | dock(Bike)
 DockingStation  | bike
 DockingStation  | capacity
+Bike  | report_broken
+Bike  | broken?
 
 ### Diagram of objects and methods
 ```
