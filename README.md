@@ -97,11 +97,12 @@ Bike  | broken?
 
 ### Diagram of objects and methods
 ```
-CLASS              METHOD           OUTPUT  
-Bike           --> working?     --> true/false
-DockingStation --> release_bike --> Bike.new
-DockingStation --> dock(bike)   --> Bike.new
-DockingStation --> bike         --> Bike.new
-DockingStation --> capacity     --> DEFAULT_CAPACITY
+CLASS              METHOD            OUTPUT  
+DockingStation --> release_bike  --> Bike.new
+DockingStation --> dock(bike)    --> Bike.new
+DockingStation --> bike          --> Bike.new
+DockingStation --> capacity      --> DEFAULT_CAPACITY
+Bike           --> report_broken --> @broken
+Bike           --> broken?       --> true/false
 ```
 (Domain Model in form of UML Diagram to be added)
