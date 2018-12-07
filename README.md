@@ -6,7 +6,7 @@
 - [Initialize and push a git project](learnings/init.md)
 - [Give the structure of a User Story](learnings/user_story.md)
 - [Extract a Domain Model from User Stories](learnings/domain_model.md)
-- Define 'Feature Test'
+- [Define 'Feature Test'](learnings/feature_test.md)
 - Define a 'stack trace'
 - Use irb to run a 'feature test'
 - Explain how to use a stack trace to debug errors
