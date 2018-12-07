@@ -7,7 +7,7 @@
 - [Give the structure of a User Story](learnings/user_story.md)
 - [Extract a Domain Model from User Stories](learnings/domain_model.md)
 - [Define 'Feature Test'](learnings/feature_test.md)
-- Define a 'stack trace'
+- [Define a 'stack trace'](learnings/stack_trace.md)
 - Use irb to run a 'feature test'
 - Explain how to use a stack trace to debug errors
 - Debug an error using a stack trace
