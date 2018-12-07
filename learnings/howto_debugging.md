@@ -1,6 +1,6 @@
 # Learning Objective
 
-### Debug an error using a stack trace
+### Explain how to use a stack trace to debug errors
 
 Given the following stack trace:
 
@@ -15,14 +15,10 @@ Traceback (most recent call last):
 NameError (uninitialized constant DockingStation)
 ```
 
-We can infer that the initialization of DockingStation is missing.
+We can read the line number, the complete file path where the issue occurred and the name of the error.
 
-We can easily create the DockingStation class and try again, obtaining the following result:
+The path would be: /Users/[user name]/.rvm/rubies/ruby-2.5.0/bin/irb
 
-```sh
-$ irb
-2.5.0 :001 > require './lib/docking_station.rb'
- => true
-2.5.0 :002 > station = DockingStation.new
- => #<DockingStation:0x00007fe35d8e2ea0>
-```
+The line would be: 11
+
+The error name would be: uninitialized constant
