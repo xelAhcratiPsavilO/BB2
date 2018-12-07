@@ -9,7 +9,7 @@
 - [Define 'Feature Test'](learnings/feature_test.md)
 - [Define a 'stack trace'](learnings/stack_trace.md)
 - [Use irb to run a 'feature test'](learnings/irb.md)
-- Explain how to use a stack trace to debug errors
+- [Explain how to use a stack trace to debug errors](debuggin.md)
 - Debug an error using a stack trace
 - Define RSpec as a testing framework
 - Create a spec file
