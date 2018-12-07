@@ -4,7 +4,7 @@
 - [Set up a simple project](learnings/setup.md)
 - [Explain why a complete README is important](learnings/explanation.md)
 - [Initialize and push a git project](learnings/init.md)
-- Give the structure of a User Story
+- [Give the structure of a User Story](learnings/user_story.md)
 - Extract a Domain Model from User Stories
 - Define 'Feature Test'
 - Define a 'stack trace'
@@ -90,7 +90,7 @@ Objects  | Messages
 Person  |
 DockingStation  | release_bike
 DockingStation  | dock(Bike)
-DockingStation  | bike
+DockingStation  | bikes
 DockingStation  | capacity
 Bike  | report_broken
 Bike  | broken?
@@ -99,8 +99,8 @@ Bike  | broken?
 ```
 CLASS              METHOD            OUTPUT  
 DockingStation --> release_bike  --> Bike.new
-DockingStation --> dock(bike)    --> Bike.new
-DockingStation --> bike          --> Bike.new
+DockingStation --> dock(bike)    --> [Bike.new]
+DockingStation --> bikes         --> [Bike.new]
 DockingStation --> capacity      --> DEFAULT_CAPACITY
 Bike           --> report_broken --> @broken
 Bike           --> broken?       --> true/false
