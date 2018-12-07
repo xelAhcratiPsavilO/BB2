@@ -2,8 +2,8 @@
 
 ### Learning Objectives covered
 - [Set up a simple project](learnings/setup.md)
-- [Explain why a complete README is important](explanation.md)
-- [Initialize and push a git project](init.md)
+- [Explain why a complete README is important](learnings/explanation.md)
+- [Initialize and push a git project](learnings/init.md)
 - Give the structure of a User Story
 - Extract a Domain Model from User Stories
 - Define 'Feature Test'
