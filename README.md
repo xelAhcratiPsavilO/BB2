@@ -11,7 +11,7 @@
 - [Use irb to run a 'feature test'](learnings/irb.md)
 - [Explain how to use a stack trace to debug errors](learnings/howto_debugging.md)
 - [Debug an error using a stack trace](learnings/debugging.md)
-- Define RSpec as a testing framework
+- [Define RSpec as a testing framework](rspec.md)
 - Create a spec file
 - Describe an Object using a specification
 - Set up a Unit Test
