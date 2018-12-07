@@ -1,7 +1,7 @@
 # Boris Bikes
 
 ### Learning Objectives covered
-- Set up a simple project
+- [Set up a simple project](learnings/setup.md)
 - Explain why a complete README is important
 - Initialize and push a git project
 - Give the structure of a User Story
