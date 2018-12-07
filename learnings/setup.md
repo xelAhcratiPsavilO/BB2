@@ -1,3 +1,7 @@
+# Learning Objective
+
+### Set up a simple project
+
 In order to set up a simple project:
 - Open a terminal window.
 - Navigate to the desired directory.
