@@ -13,7 +13,7 @@ In order to setup a Unit Test, it is necessary to:
 $ tree
 .
 └── spec
-    ├── object.rb
+    ├── object_spec.rb
     └── spec_helper.rb
 ```
 

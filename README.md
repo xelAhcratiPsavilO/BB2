@@ -15,7 +15,7 @@
 - [Create a spec file](learnings/spec.md)
 - [Describe an Object using a specification](learnings/describe.md)
 - [Set up a Unit Test](learnings/setup_unit_test.md)
-- Pass a unit test
+- [Pass a unit test](learnings/pass_unit_test.md)
 - Use require
 - Move between Feature and Unit Tests
 - Write an RSpec test using it
