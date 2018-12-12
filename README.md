@@ -18,7 +18,7 @@
 - [Pass a unit test](learnings/pass_unit_test.md)
 - [Use require](learnings/require.md)
 - [Move between Feature and Unit Tests](learnings/move.md)
-- Write an RSpec test using it
+- [Write an RSpec test using it](learnings/it.md)
 - Test that an Object responds to a Message
 - Use Objects within other Objects
 - Use RSpec 'predicate' syntax
