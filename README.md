@@ -17,7 +17,7 @@
 - [Set up a Unit Test](learnings/setup_unit_test.md)
 - [Pass a unit test](learnings/pass_unit_test.md)
 - [Use require](learnings/require.md)
-- Move between Feature and Unit Tests
+- [Move between Feature and Unit Tests](learnings/move.md)
 - Write an RSpec test using it
 - Test that an Object responds to a Message
 - Use Objects within other Objects
