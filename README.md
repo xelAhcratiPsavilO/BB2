@@ -14,7 +14,7 @@
 - [Define RSpec as a testing framework](learnings/rspec.md)
 - [Create a spec file](learnings/spec.md)
 - [Describe an Object using a specification](learnings/describe.md)
-- Set up a Unit Test
+- [Set up a Unit Test](learnings/setup_unit_test.md)
 - Pass a unit test
 - Use require
 - Move between Feature and Unit Tests
