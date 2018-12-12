@@ -13,7 +13,7 @@
 - [Debug an error using a stack trace](learnings/debugging.md)
 - [Define RSpec as a testing framework](learnings/rspec.md)
 - [Create a spec file](learnings/spec.md)
-- Describe an Object using a specification
+- [Describe an Object using a specification](learnings/describe.md)
 - Set up a Unit Test
 - Pass a unit test
 - Use require
