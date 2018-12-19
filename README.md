@@ -21,7 +21,7 @@
 - [Write an RSpec test using it](learnings/it.md)
 - [Test that an Object responds to a Message](learnings/responds.md)
 - [Use Objects within other Objects](learning/obj.md)
-- Use RSpec 'predicate' syntax
+- [Use RSpec 'predicate' syntax](learnings/predicate.md)
 - Write RSpec tests that require arguments
 - Pass an instance as an argument
 - Set an attribute on an instantiated Object using an @ instance variable
