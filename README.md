@@ -23,7 +23,7 @@
 - [Use Objects within other Objects](learning/obj.md)
 - [Use RSpec 'predicate' syntax](learnings/predicate.md)
 - [Write RSpec tests that require arguments](learnings/arguments.md)
-- Pass an instance as an argument
+- [Pass an instance as an argument](learnings/instance.md)
 - Set an attribute on an instantiated Object using an @ instance variable
 - Use attr_reader to read an attribute on an instantiated Object
 - Write RSpec tests that expect errors
