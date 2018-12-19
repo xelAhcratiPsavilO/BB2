@@ -20,7 +20,7 @@
 - [Move between Feature and Unit Tests](learnings/move.md)
 - [Write an RSpec test using it](learnings/it.md)
 - [Test that an Object responds to a Message](learnings/responds.md)
-- Use Objects within other Objects
+- [Use Objects within other Objects](learning/obj.md)
 - Use RSpec 'predicate' syntax
 - Write RSpec tests that require arguments
 - Pass an instance as an argument
