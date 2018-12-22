@@ -26,7 +26,7 @@
 - [Pass an instance as an argument](learnings/instance.md)
 - [Set an attribute on an instantiated Object using an @ instance variable](learnings/instance.md)
 - [Use attr_reader to read an attribute on an instantiated Object](learnings/attreader.md)
-- Write RSpec tests that expect errors
+- [Write RSpec tests that expect errors](learnings/expect_errors.md)
 - Use fail or raise to raise an error
 - Use a 'guard condition'
 - Wrap a collection in a class
