@@ -32,7 +32,7 @@
 - [Wrap a collection in a class](learnings/wrap.md)
 - [Set an initial attribute value using initialize](learnings/initialize.md)
 - [Use the Single Responsibility Principle](learnings/srp.md)
-- Refactor code for readability
+- [Refactor code for readability](learnings/srp.md)
 - Use a constant
 - Set an initial attribute value using initialize
 - Set a default initialization value

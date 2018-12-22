@@ -4,6 +4,8 @@
 
 In order to make sure that every method comply with the Single Responsibility Principle, methods with guard conditions should extract part of their logic into private predicate methods:
 
+### Refactor code for readability
+
 ```ruby
 class DockingStation
   def initialize
