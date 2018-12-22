@@ -31,7 +31,7 @@
 - [Use a 'guard condition'](learnings/guard.md)
 - [Wrap a collection in a class](learnings/wrap.md)
 - [Set an initial attribute value using initialize](learnings/initialize.md)
-- Use the Single Responsibility Principle
+- [Use the Single Responsibility Principle](learnings/srp.md)
 - Refactor code for readability
 - Use a constant
 - Set an initial attribute value using initialize
