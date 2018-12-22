@@ -30,7 +30,7 @@
 - [Use fail or raise to raise an error](learnings/raise_errors.md)
 - [Use a 'guard condition'](learnings/guard.md)
 - [Wrap a collection in a class](learnings/wrap.md)
-- Set an initial attribute value using initialize
+- [Set an initial attribute value using initialize](learnings/initialize.md)
 - Use the Single Responsibility Principle
 - Refactor code for readability
 - Use a constant
