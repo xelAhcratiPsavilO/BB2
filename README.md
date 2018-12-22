@@ -33,7 +33,7 @@
 - [Set an initial attribute value using initialize](learnings/initialize.md)
 - [Use the Single Responsibility Principle](learnings/srp.md)
 - [Refactor code for readability](learnings/srp.md)
-- Use a constant
+- [Use a constant](learnings/constant.md)
 - Set an initial attribute value using initialize
 - Set a default initialization value
 
