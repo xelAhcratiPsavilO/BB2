@@ -24,8 +24,8 @@
 - [Use RSpec 'predicate' syntax](learnings/predicate.md)
 - [Write RSpec tests that require arguments](learnings/arguments.md)
 - [Pass an instance as an argument](learnings/instance.md)
-- Set an attribute on an instantiated Object using an @ instance variable
-- Use attr_reader to read an attribute on an instantiated Object
+- [Set an attribute on an instantiated Object using an @ instance variable](learnings/instance.md)
+- [Use attr_reader to read an attribute on an instantiated Object](learnings/attreader.md)
 - Write RSpec tests that expect errors
 - Use fail or raise to raise an error
 - Use a 'guard condition'

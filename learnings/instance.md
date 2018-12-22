@@ -15,6 +15,8 @@ describe DockingStation do
 end
 ```
 
+### Set an attribute on an instantiated Object using an @ instance variable
+
 In the lib directory:
 
 ```ruby
