@@ -2,7 +2,7 @@
 
 ### Use fail or raise to raise an error
 
-A syntax that can be used in order to raise an error is fail. See that illustrated in the following example:
+A syntax that can be used in order to raise an error is fail. See that illustrated with the following example:
 
 ```ruby
 class DockingStation

@@ -28,7 +28,7 @@
 - [Use attr_reader to read an attribute on an instantiated Object](learnings/attreader.md)
 - [Write RSpec tests that expect errors](learnings/expect_errors.md)
 - [Use fail or raise to raise an error](learnings/raise_errors.md)
-- Use a 'guard condition'
+- [Use a 'guard condition'](learnings/guard.md)
 - Wrap a collection in a class
 - Set an initial attribute value using initialize
 - Use the Single Responsibility Principle
