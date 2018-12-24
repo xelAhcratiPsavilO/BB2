@@ -4,6 +4,7 @@ require 'bike'
 describe DockingStation do
 
   bike = Bike.new
+  bike2 = Bike.new
 
   describe '#initialize' do
     it 'defaults capacity' do
@@ -12,7 +13,7 @@ describe DockingStation do
     end
   end
 
-  describe '#release' do
+  describe '#release_bike' do
     it 'raises an error if docking station is empty' do
       expect{ subject.release_bike }.to raise_error 'No bikes available'
     end
@@ -22,8 +23,8 @@ describe DockingStation do
       expect{ subject.release_bike }.to raise_error 'This bike is broken'
     end
     it 'releases bikes that work' do
-      subject.dock(bike)
-      expect(subject.release_bike).to eq bike
+      subject.dock(bike2)
+      expect(subject.release_bike).to eq bike2
     end
   end
 
