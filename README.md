@@ -39,6 +39,7 @@
 - [Explain why doubles are needed to isolate unit tests](learnings/why_double.md)
 - [Use a double to isolate a unit test](learnings/how_double.md)
 - [Explain why method stubs are needed to isolate unit tests](learnings/why_stub.md)
+- [Use a method stub to isolate a unit test](learnings/how_stub.md)
 
 ### User stories
 ```
