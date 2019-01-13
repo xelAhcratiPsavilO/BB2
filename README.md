@@ -38,6 +38,7 @@
 - [Set a default initialization value](learnings/default_init.md)
 - [Explain why doubles are needed to isolate unit tests](learnings/why_double.md)
 - [Use a double to isolate a unit test](learnings/how_double.md)
+- [Explain why method stubs are needed to isolate unit tests](learnings/why_stub.md)
 
 ### User stories
 ```
