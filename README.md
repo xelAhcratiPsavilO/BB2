@@ -36,7 +36,7 @@
 - [Use a constant](learnings/constant.md)
 - [Set an initial attribute value using initialize](learnings/att_initialized.md)
 - [Set a default initialization value](learnings/default_init.md)
-- Explain why doubles are needed to isolate unit tests
+- [Explain why doubles are needed to isolate unit tests](learnings/why_double.md)
 - Use a double to isolate a unit test
 
 ### User stories
