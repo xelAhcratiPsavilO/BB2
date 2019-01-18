@@ -12,13 +12,13 @@ describe Van do
   end
 
   describe '#pick' do
-    it '' do
+    it 'is able to pick a bike' do
 
     end
   end
 
   describe '#release_bike' do
-    it '' do
+    it 'is able to release a bike' do
 
     end
   end
