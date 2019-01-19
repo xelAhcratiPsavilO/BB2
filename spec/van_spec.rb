@@ -3,6 +3,7 @@ require 'van'
 describe Van do
 
   bike = Bike.new
+  station = DockingStation.new
 
   describe '#initialize' do
     it 'defaults capacity' do
@@ -13,6 +14,7 @@ describe Van do
 
   describe '#pick' do
     it 'is able to pick a bike' do
+      station.dock(bike)
 
     end
   end
