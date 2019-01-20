@@ -7,21 +7,16 @@ describe Van do
 
   describe '#initialize' do
     it 'defaults capacity' do
-      Van::DEFAULT_CAPACITY.times { subject.pick(bike) }
-      expect{ subject.pick(bike) }.to raise_error 'Van full'
+      Van::DEFAULT_CAPACITY.times { station.dock(bike) }
+      Van::DEFAULT_CAPACITY.times { subject.pick_from(station) }
+      expect{ subject.pick_from(station) }.to raise_error 'Van full'
     end
   end
 
-  describe '#pick' do
-    it 'is able to pick a bike' do
+  describe '#pick_from' do
+    it 'is able to pick a bike from a station' do
       station.dock(bike)
-
-    end
-  end
-
-  describe '#release_bike' do
-    it 'is able to release a bike' do
-
+      expect{ subject.pic_from(station) }.to [bike]
     end
   end
 
