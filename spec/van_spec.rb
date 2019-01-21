@@ -21,5 +21,10 @@ describe Van do
     end
   end
 
+  describe '#drop_to' do
+    it 'is able to drop a bike to a garage' do
+    end
+  end
+
 
 end
