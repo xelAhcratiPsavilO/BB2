@@ -23,6 +23,9 @@ describe Van do
 
   describe '#drop_to' do
     it 'is able to drop a bike to a garage' do
+      station.dock(bike)
+      subject.pick_from(station)
+      expect(subject.drop_to).to eq bike
     end
   end
 

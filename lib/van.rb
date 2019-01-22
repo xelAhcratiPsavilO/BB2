@@ -15,6 +15,10 @@ class Van
     @bikes << station.release_bike
   end
 
+  def drop_to
+    @bikes.pop
+  end
+
   private
 
   def full?
