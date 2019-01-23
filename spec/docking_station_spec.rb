@@ -38,7 +38,7 @@ describe DockingStation do
   end
 
   describe '#bikes' do
-    it 'is able to return docked bikes' do
+    it 'is able to show docked bikes' do
       bike = double(:bike)
       subject.dock(bike)
       expect(subject.bikes).to eq [bike]

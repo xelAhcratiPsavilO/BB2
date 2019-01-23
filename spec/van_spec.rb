@@ -34,5 +34,12 @@ describe Van do
     end
   end
 
+  describe '#bikes' do
+    it 'is able to show picked bikes' do
+      station.dock(bike)
+      subject.pick_from(station)
+      expect(subject.bikes).to eq [bike]
+    end
+  end
 
 end
