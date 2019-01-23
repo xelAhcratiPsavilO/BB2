@@ -15,11 +15,12 @@ class Van
 
   def pick_from(station)
     fail 'Van full' if full?
+    # fail 'This bike is not broken' unless bike_broken?
     @bikes << station.release_bike
   end
 
   def drop_to
-    fail 'No bikes available' if empty?    
+    fail 'No bikes available' if empty?
     @bikes.pop
   end
 
@@ -31,6 +32,10 @@ class Van
 
   def empty?
     @bikes.empty?
+  end
+
+  def bike_broken?
+    @bikes.last.broken?
   end
 
 end
