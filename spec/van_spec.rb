@@ -32,6 +32,9 @@ describe Van do
       subject.pick_from(station)
       expect(subject.drop_to).to eq bike
     end
+    it 'raises an error if van is empty' do
+      expect{ subject.drop_to }.to raise_error 'No bikes available'
+    end
   end
 
   describe '#bikes' do
