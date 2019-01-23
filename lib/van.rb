@@ -11,7 +11,7 @@ class Van
   end
 
   attr_reader :bikes
-  # attr_reader :capacity
+  attr_reader :capacity
 
   def pick_from(station)
     fail 'Van full' if full?
