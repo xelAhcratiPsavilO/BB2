@@ -10,6 +10,9 @@ class Van
     @capacity = capacity
   end
 
+  attr_reader :bikes
+  attr_reader :capacity
+
   def pick_from(station)
     fail 'Van full' if full?
     @bikes << station.release_bike

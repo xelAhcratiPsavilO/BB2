@@ -20,7 +20,7 @@ describe Van do
       expect(subject.pick_from(station)).to eq [bike]
     end
     it 'raises an error if van is full' do
-      station.capacity.times { station.dock(bike) }
+      subject.capacity.times { station.dock(bike) }
       subject.capacity.times { subject.pick_from(station) }
       expect{ subject.pick_from(station) }.to raise_error 'Van full'
     end
