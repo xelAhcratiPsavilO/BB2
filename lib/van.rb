@@ -19,6 +19,7 @@ class Van
   end
 
   def drop_to
+    fail 'No bikes available' if empty?    
     @bikes.pop
   end
 
@@ -26,6 +27,10 @@ class Van
 
   def full?
     @bikes.count >= @capacity
+  end
+
+  def empty?
+    @bikes.empty?
   end
 
 end
