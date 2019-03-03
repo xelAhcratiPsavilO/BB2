@@ -12,9 +12,11 @@ class DockingStation
   attr_reader :bikes
   attr_reader :capacity
 
-  def release_bike
+  def release_bike(to = "user")
     fail 'No bikes available' if empty?
-    fail 'This bike is broken' if bike_broken?
+    if to == "user"
+      fail 'This bike is broken' if bike_broken?
+    end
     @bikes.pop
   end
 

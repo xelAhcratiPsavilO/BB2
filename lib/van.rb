@@ -15,8 +15,8 @@ class Van
 
   def pick_from(station)
     fail 'Van full' if full?
-    # fail 'This bike is not broken' unless bike_broken?
-    @bikes << station.release_bike
+    fail 'This bike is not broken' unless station.release_bike("to van").broken?
+    @bikes << station.release_bike("to van")
   end
 
   def drop_to
