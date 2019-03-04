@@ -6,34 +6,32 @@ describe Van do
   station = DockingStation.new
 
   describe '#initialize' do
-    it 'defaults capacity' do
-      Van::DEFAULT_CAPACITY.times { station.dock(bike) }
-      station.dock(bike)
-      Van::DEFAULT_CAPACITY.times { subject.pick_from(station) }
-      expect { subject.pick_from(station) }.to raise_error 'Van full'
+    it 'has a default capacity' do
+      expect(Van::DEFAULT_CAPACITY).to eq 10
     end
   end
 
   describe '#pick_from' do
-    it 'raises an error if van is full' do
-      subject.capacity.times {
-        bike.report_broken
-        station.dock(bike)
-       }
-         bike.report_broken
-         station.dock(bike)
-      subject.capacity.times { subject.pick_from(station) }
-      expect{ subject.pick_from(station) }.to raise_error 'Van full'
-    end
     it 'raises an error if bike is not broken' do
       station.dock(bike)
+      print bike.broken?
       expect{ subject.pick_from(station) }.to raise_error 'This bike is not broken'
     end
     it 'is able to pick a bike from a station' do
-      bike.report_brokens
+      bike.report_broken
       station.dock(bike)
       expect(subject.pick_from(station)).to eq [bike]
     end
+      it 'raises an error if van is full' do
+        subject.capacity.times {
+          bike.report_broken
+          station.dock(bike)
+         }
+           bike.report_broken
+           station.dock(bike)
+        subject.capacity.times { subject.pick_from(station) }
+        expect{ subject.pick_from(station) }.to raise_error 'Van full'
+      end
   end
 
   describe '#drop_to' do
