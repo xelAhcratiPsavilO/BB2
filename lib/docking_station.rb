@@ -14,7 +14,7 @@ class DockingStation
 
   def release_bike(to = "user")
     fail 'No bikes available' if empty?
-      fail 'This bike is broken' if bike_broken? && to == "user"
+    fail 'This bike is broken' if bike_broken? && to == "user"
     @bikes.pop
   end
 
