@@ -4,8 +4,7 @@ describe DockingStation do
 
   describe '#initialize' do
     it 'defaults capacity' do
-      DockingStation::DEFAULT_CAPACITY.times { subject.dock(double(:bike)) }
-      expect{ subject.dock(double(:bike)) }.to raise_error 'Docking Station full'
+      expect(DockingStation::DEFAULT_CAPACITY).to eq 20
     end
   end
 
