@@ -14,7 +14,6 @@ describe Van do
   describe '#pick_from' do
     it 'raises an error if bike is not broken' do
       station.dock(bike)
-      print bike.broken?
       expect{ subject.pick_from(station) }.to raise_error 'This bike is not broken'
     end
     it 'is able to pick a bike from a station' do

@@ -34,8 +34,4 @@ class Van
     @bikes.empty?
   end
 
-  def bike_broken?
-    @bikes.last.broken?
-  end
-
 end
