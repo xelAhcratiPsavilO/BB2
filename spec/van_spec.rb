@@ -21,16 +21,16 @@ describe Van do
       station.dock(bike)
       expect(subject.pick_from(station)).to eq [bike]
     end
-      it 'raises an error if van is full' do
-        subject.capacity.times {
-          bike = double(:bike, broken?: true)
-          station.dock(bike)
-         }
-         bike = double(:bike, broken?: true)
-           station.dock(bike)
-        subject.capacity.times { subject.pick_from(station) }
-        expect{ subject.pick_from(station) }.to raise_error 'Van full'
-      end
+    it 'raises an error if van is full' do
+      subject.capacity.times {
+        bike = double(:bike, broken?: true)
+        station.dock(bike)
+      }
+      bike = double(:bike, broken?: true)
+      station.dock(bike)
+      subject.capacity.times { subject.pick_from(station) }
+      expect{ subject.pick_from(station) }.to raise_error 'Van full'
+    end
   end
 
   describe '#drop_to' do
